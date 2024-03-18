@@ -1,36 +1,21 @@
 name: CI
-
 on:
   push:
-    branches: [main]
-
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
-          fetch-depth: 0
+         persist-credentials: false
+         fetch-depth: 0
 
-      - name: Configure Git
+      - name: Push to Front End Wiki
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          
-          # Set up Front-End Wiki repository URLs
-          git remote set-url origin --push "https://github.com/CodeCraft-Solutions-DREAM-Lab/Front-End.wiki.git"
-          
-          # Set up Back-End Wiki repository URLs
-          git remote add back_end_wiki "https://github.com/CodeCraft-Solutions-DREAM-Lab/Back-End.wiki.git"
-          git remote set-url --push back_end_wiki "https://github.com/CodeCraft-Solutions-DREAM-Lab/Back-End.wiki.git"
+          git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Front-End.wiki.git main:master --force
 
-      - name: Push to Front-End Wiki
+      - name: Push to Back End Wiki
         run: |
-          git push -q origin main:master --force
-
-      - name: Push to Back-End Wiki
-        run: |
-          git push -q origin main:master --force
+          git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Back-End.wiki.git main:master --force
