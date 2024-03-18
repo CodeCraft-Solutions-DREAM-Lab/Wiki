@@ -59,7 +59,7 @@ A continuación, se muestra un diagrama que ilustra la interconexión de los dis
 
 Diagrama de componentes
 
-![Default View FINAL](https://github.com/ReynaldoHdz/DREAM-Lab-Main/assets/89491839/2bbad895-7a76-4f61-8f13-bd7fe0ddd626)
+![Diagrama de la arquitectura](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/DiagramaArquitectura.png)
 
 **Descripción del diagrama:** El usuario accede a la aplicación del D.R.E.A.M. Lab desde su computadora o dispositivo móvil. Una vez dentro, puede interactuar con diversas pantallas del front-end, como la de inicio de sesión, el menú de experiencias y el sistema de reservas. Cada una de estas pantallas se comunica con el backend para procesar las solicitudes del usuario. Estas solicitudes son atendidas mediante consultas a la base de datos, permitiendo al usuario visualizar información como descripciones de los espacios disponibles y horarios. 
 
@@ -83,7 +83,7 @@ Detallar la descomposición del sistema en subsistemas y componentes, incluyendo
 
 Detallar el diseño de la estructura de datos, incluyendo modelos de datos, diagramas de entidad-relación y cualquier consideración de persistencia de datos.
 
-![BD_Reto-Diagrama Relacional](https://github.com/ReynaldoHdz/DREAM-Lab-Main/assets/89491839/643049bc-8fd2-40c8-aaea-ec260a925389)
+![Diagrama Relacional de la base de datos](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/DiagramaBD.png)
 
 ## 4. Detalles del Diseño
 
@@ -105,7 +105,7 @@ Descripción de componentes:
 
 A continuación se presenta un diagrama con las interacciones y flujos de la aplicación:
 
-![Diagrama sin título (6)](https://github.com/ReynaldoHdz/DREAM-Lab-Main/assets/114451467/f45d8f94-0d03-40ed-9ece-9998692806bc)
+![Diagrama de interacciones y flujos](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/Interacciones%26Flujos.png)
 
 ## 5. Atributos de Calidad del Sistema
 
