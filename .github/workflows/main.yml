@@ -19,3 +19,7 @@ jobs:
       - name: Push to Back End Wiki
         run: |
           git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Back-End.wiki.git main:master --force
+
+      - name: Push to Arquitectura Wiki
+        run: |
+          git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Arquitectura.wiki.git main:master --force
