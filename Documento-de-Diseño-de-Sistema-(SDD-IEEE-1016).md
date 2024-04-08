@@ -83,9 +83,9 @@ Detallar la descomposición del sistema en subsistemas y componentes, incluyendo
 
 Detallar el diseño de la estructura de datos, incluyendo modelos de datos, diagramas de entidad-relación y cualquier consideración de persistencia de datos.
 
-#### 3.4.1 Diagrama Entidad-Relación
+#### 3.4.1 Modelo Entidad-Relación
 
-![Diagrama Relacional de la base de datos](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/DiagramaBDEntidadRelacion.png)
+![Modelo Entidad-Relacion de la base de datos](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/DiagramaBDEntidadRelacion.png)
 
 #### 3.4.1 Diagrama Relacional
 
