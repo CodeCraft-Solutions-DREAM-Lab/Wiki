@@ -65,6 +65,11 @@ Diagrama de componentes
 
 Además, el back-end se conecta con un componente de inteligencia artificial para abordar solicitudes especiales, como la priorización de usuarios en sus procesos de reserva, y la generación de recomendaciones personalizadas.
 
+### 3.1.2 Stack Tecnológico
+
+A continuación se presenta un diagrama con las diferentes herramientas utilizadas para el desarrollo del proyecto D.R.E.A.M. Lab.
+
+![Stack Tecnológico](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/StackTecnol%C3%B3gico.png)
 
 ### 3.2 Descomposición del Sistema
 
