@@ -89,7 +89,7 @@ Detallar el diseño de la estructura de datos, incluyendo modelos de datos, diag
 
 #### 3.4.1 Diagrama Relacional
 
-![Diagrama Relacional de la base de datos](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/assets/DiagramaBDRelacional.png)
+![Diagrama Relacional de la base de datos](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/DiagramaBDRelacional.png)
 
 ## 4. Detalles del Diseño
 
