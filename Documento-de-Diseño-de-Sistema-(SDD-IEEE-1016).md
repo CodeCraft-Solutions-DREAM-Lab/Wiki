@@ -92,9 +92,13 @@ Detallar el diseño de la estructura de datos, incluyendo modelos de datos, diag
 
 ![Modelo Entidad-Relacion de la base de datos](https://raw.githubusercontent.com/CodeCraft-Solutions-DREAM-Lab/Wiki/main/assets/DiagramaBDEntidadRelacion.png)
 
-#### 3.4.1 Diagrama Relacional
+#### 3.4.2 Diagrama Relacional
 
 ![Diagrama Relacional de la base de datos](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/DiagramaBDRelacional.png)
+
+#### 3.4.2 Modelo Lógico de Datoa - Base de Datos no Relacional
+
+![Modelo Lógico de Datoa - Base de Datos no Relacional](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/Modelo-Lógico-de-Datos-No-Relacional.png)
 
 ## 4. Detalles del Diseño
 
