@@ -1,5 +1,3 @@
-# Documentación de la API
-
 Puedes consultar la documentación y realizar pruebas de las peticiones directamente en la [documentación de swagger](https://dreamlab-api.azurewebsites.net/docs/).
 
 ## Auth
