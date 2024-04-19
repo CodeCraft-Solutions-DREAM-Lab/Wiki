@@ -1,4 +1,4 @@
-Puedes consultar la documentación y realizar pruebas de las peticiones directamente en la [documentación de swagger](https://dreamlab-api.azurewebsites.net/docs/).
+Puedes consultar la documentación y realizar pruebas de las peticiones directamente en nuestra [documentación interactiva](https://dreamlab-api.azurewebsites.net/docs/).
 
 ## Auth
 ### POST
