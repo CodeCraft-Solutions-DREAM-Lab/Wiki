@@ -69,7 +69,7 @@ Además, el back-end se conecta con un componente de inteligencia artificial par
 
 A continuación se presenta un diagrama con las diferentes herramientas utilizadas para el desarrollo del proyecto D.R.E.A.M. Lab.
 
-![Stack Tecnológico](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/StackTecnol%C3%B3gico.png)
+![Stack Tecnológico](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/StackTecnologico.png)
 
 ### 3.2 Descomposición del Sistema
 
