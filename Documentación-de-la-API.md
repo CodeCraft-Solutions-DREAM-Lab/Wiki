@@ -1,8 +1,8 @@
-Puedes consultar la documentación y realizar pruebas de las peticiones directamente en nuestra [documentación interactiva](https://dreamlab-api.azurewebsites.net/docs/).
+**Puedes consultar la documentación y realizar pruebas de las peticiones directamente en nuestra [documentación interactiva 📑](https://dreamlab-api.azurewebsites.net/docs/).**
 
 <!-------------------------------------- AUTH -------------------------------------->
 ## Auth
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /auth/usuario
 ```
@@ -12,14 +12,14 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 
 <!-------------------------------------- CHATBOT -------------------------------------->
 ## Chatbot
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /chatbot
 ```
 
 <!-------------------------------------- EXPERIENCIAS -------------------------------------->
 ## Experiencias
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /experiencias
 ```
@@ -29,28 +29,28 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 ```
 /experiencias/{id}
 ```
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /experiencias/UFs
 ```
 
 <!-------------------------------------- LOGROS -------------------------------------->
 ## Logros
-### PUT
+### $${\color{orange}PUT}$$
 ```
 /logros/{idUsuario}/{idLogro}
 ```
 
 <!-------------------------------------- MATERIALES -------------------------------------->
 ## Materiales
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /materiales-disponibles
 ```
 
 <!-------------------------------------- MESAS -------------------------------------->
 ## Mesas
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /mesas
 ```
@@ -60,21 +60,21 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 
 <!-------------------------------------- PERFIL -------------------------------------->
 ## Perfil
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /perfil/logros/{idUsuario}
 ```
 ```
 /perfil/{idUsuario}
 ```
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /perfil/logros/{idUsuario}
 ```
 
 <!-------------------------------------- RESERVACIONES -------------------------------------->
 ## Reservaciones
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /reservaciones
 ```
@@ -84,22 +84,22 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 ```
 /reservaciones/{id}
 ```
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /reservaciones
 ```
-### PUT
+### $${\color{orange}PUT}$$
 ```
 /reservaciones/{id}
 ```
-### DELETE
+### $${\color{red}DELETE}$$
 ```
 /reservaciones/{id}
 ```
 
 <!-------------------------------------- SALAS -------------------------------------->
 ## Salas
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /salas
 ```
@@ -109,25 +109,25 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 ```
 /salas/nameFromExperienceId/{id}
 ```
-### POST
+### $${\color{lightgreen}POST}$$
 ```
 /salas/horasLibres
 ```
 
 <!-------------------------------------- USUARIOS -------------------------------------->
 ## Usuarios
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /usuarios
 ```
-### PUT
+### $${\color{orange}PUT}$$
 ```
 /usuarios/{idUsuarios}
 ```
 
 <!-------------------------------------- VIDEOWALL -------------------------------------->
 ## Videowall
-### $${\color{lightgreen}GET}$$
+### $${\color{lightblue}GET}$$
 ```
 /videowall/reservaciones
 ```
