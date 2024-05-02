@@ -1,5 +1,6 @@
 Puedes consultar la documentación y realizar pruebas de las peticiones directamente en nuestra [documentación interactiva](https://dreamlab-api.azurewebsites.net/docs/).
 
+<!-------------------------------------- AUTH -------------------------------------->
 ## Auth
 ### POST
 ```
@@ -9,14 +10,16 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 /auth/token
 ```
 
+<!-------------------------------------- CHATBOT -------------------------------------->
 ## Chatbot
 ### POST
 ```
 /chatbot
 ```
 
+<!-------------------------------------- EXPERIENCIAS -------------------------------------->
 ## Experiencias
-### GET
+### $${\color{lightgreen}GET}$$
 ```
 /experiencias
 ```
@@ -31,8 +34,23 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 /experiencias/UFs
 ```
 
+<!-------------------------------------- LOGROS -------------------------------------->
+## Logros
+### PUT
+```
+/logros/{idUsuario}/{idLogro}
+```
+
+<!-------------------------------------- MATERIALES -------------------------------------->
+## Materiales
+### $${\color{lightgreen}GET}$$
+```
+/materiales-disponibles
+```
+
+<!-------------------------------------- MESAS -------------------------------------->
 ## Mesas
-### GET
+### $${\color{lightgreen}GET}$$
 ```
 /mesas
 ```
@@ -40,8 +58,23 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 /mesas/{idSala}
 ```
 
+<!-------------------------------------- PERFIL -------------------------------------->
+## Perfil
+### $${\color{lightgreen}GET}$$
+```
+/perfil/logros/{idUsuario}
+```
+```
+/perfil/{idUsuario}
+```
+### POST
+```
+/perfil/logros/{idUsuario}
+```
+
+<!-------------------------------------- RESERVACIONES -------------------------------------->
 ## Reservaciones
-### GET
+### $${\color{lightgreen}GET}$$
 ```
 /reservaciones
 ```
@@ -64,8 +97,9 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 /reservaciones/{id}
 ```
 
+<!-------------------------------------- SALAS -------------------------------------->
 ## Salas
-### GET
+### $${\color{lightgreen}GET}$$
 ```
 /salas
 ```
@@ -80,8 +114,20 @@ Puedes consultar la documentación y realizar pruebas de las peticiones directam
 /salas/horasLibres
 ```
 
+<!-------------------------------------- USUARIOS -------------------------------------->
 ## Usuarios
-### GET
+### $${\color{lightgreen}GET}$$
 ```
 /usuarios
+```
+### PUT
+```
+/usuarios/{idUsuarios}
+```
+
+<!-------------------------------------- VIDEOWALL -------------------------------------->
+## Videowall
+### $${\color{lightgreen}GET}$$
+```
+/videowall/reservaciones
 ```
