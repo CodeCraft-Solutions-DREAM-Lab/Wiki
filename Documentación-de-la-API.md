@@ -2,7 +2,7 @@
 
 <!-------------------------------------- AUTH -------------------------------------->
 ## Auth
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /auth/usuario
 ```
@@ -12,14 +12,14 @@
 
 <!-------------------------------------- CHATBOT -------------------------------------->
 ## Chatbot
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /chatbot
 ```
 
 <!-------------------------------------- EXPERIENCIAS -------------------------------------->
 ## Experiencias
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /experiencias
 ```
@@ -29,28 +29,28 @@
 ```
 /experiencias/{id}
 ```
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /experiencias/UFs
 ```
 
 <!-------------------------------------- LOGROS -------------------------------------->
 ## Logros
-### $${\color{orange}PUT}$$
+$${\color{orange}PUT}$$
 ```
 /logros/{idUsuario}/{idLogro}
 ```
 
 <!-------------------------------------- MATERIALES -------------------------------------->
 ## Materiales
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /materiales-disponibles
 ```
 
 <!-------------------------------------- MESAS -------------------------------------->
 ## Mesas
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /mesas
 ```
@@ -60,21 +60,21 @@
 
 <!-------------------------------------- PERFIL -------------------------------------->
 ## Perfil
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /perfil/logros/{idUsuario}
 ```
 ```
 /perfil/{idUsuario}
 ```
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /perfil/logros/{idUsuario}
 ```
 
 <!-------------------------------------- RESERVACIONES -------------------------------------->
 ## Reservaciones
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /reservaciones
 ```
@@ -84,22 +84,22 @@
 ```
 /reservaciones/{id}
 ```
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /reservaciones
 ```
-### $${\color{orange}PUT}$$
+$${\color{orange}PUT}$$
 ```
 /reservaciones/{id}
 ```
-### $${\color{red}DELETE}$$
+$${\color{red}DELETE}$$
 ```
 /reservaciones/{id}
 ```
 
 <!-------------------------------------- SALAS -------------------------------------->
 ## Salas
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /salas
 ```
@@ -109,25 +109,25 @@
 ```
 /salas/nameFromExperienceId/{id}
 ```
-### $${\color{lightgreen}POST}$$
+$${\color{lightgreen}POST}$$
 ```
 /salas/horasLibres
 ```
 
 <!-------------------------------------- USUARIOS -------------------------------------->
 ## Usuarios
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /usuarios
 ```
-### $${\color{orange}PUT}$$
+$${\color{orange}PUT}$$
 ```
 /usuarios/{idUsuarios}
 ```
 
 <!-------------------------------------- VIDEOWALL -------------------------------------->
 ## Videowall
-### $${\color{lightblue}GET}$$
+$${\color{lightblue}GET}$$
 ```
 /videowall/reservaciones
 ```
