@@ -12,6 +12,10 @@ jobs:
          persist-credentials: false
          fetch-depth: 0
 
+      - name: Push to Current Repo Wiki
+        run: |
+          git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Wiki.wiki.git main:master --force
+
       - name: Push to Front End Wiki
         run: |
           git push -q https://CodeCraft-Solutions-DREAM-Lab:${{ secrets.ACCESS_TOKEN }}@github.com/CodeCraft-Solutions-DREAM-Lab/Front-End.wiki.git main:master --force
