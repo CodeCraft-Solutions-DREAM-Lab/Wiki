@@ -154,6 +154,13 @@ $${\color{red}DELETE}$$
 /reservaciones/{id}
 ```
 
+<!-------------------------------------- RESERVACIONES MATERIALES -------------------------------------->
+## Reservaciones materiales
+$${\color{lightgreen}POST}$$
+```
+/reservaciones-materiales/changeEstatus
+```
+
 <!-------------------------------------- SALAS -------------------------------------->
 ## Salas
 $${\color{lightblue}GET}$$
@@ -161,7 +168,13 @@ $${\color{lightblue}GET}$$
 /salas
 ```
 ```
-/salas/{di}
+/salas/salasActivas
+```
+```
+/salas/cronograma
+```
+```
+/salas/{id}
 ```
 ```
 /salas/nameFromExperienceId/{id}
@@ -170,12 +183,30 @@ $${\color{lightgreen}POST}$$
 ```
 /salas/horasLibres
 ```
+$${\color{orange}PUT}$$
+```
+/salas/cambiarEstadoSalas
+```
+
+<!-------------------------------------- UFs -------------------------------------->
+## Unidades de formación
+$${\color{lightblue}GET}$$
+```
+/ufs
+```
 
 <!-------------------------------------- USUARIOS -------------------------------------->
 ## Usuarios
 $${\color{lightblue}GET}$$
 ```
 /usuarios
+```
+```
+/usuarios/nombreUsuario/{tagID}
+```
+$${\color{lightgreen}POST}$$
+```
+/usuarios/cambiarPrioridad
 ```
 $${\color{orange}PUT}$$
 ```
