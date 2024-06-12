@@ -10,11 +10,62 @@ $${\color{lightgreen}POST}$$
 /auth/token
 ```
 
-<!-------------------------------------- CHATBOT -------------------------------------->
-## Chatbot
+<!-------------------------------------- CORRER ASIGNACIÓN -------------------------------------->
+## Correr asignación
+$${\color{lightblue}GET}$$
+```
+/correr-asignacion
+```
+
+<!-------------------------------------- DASHBOARD -------------------------------------->
+## Dashboard
+$${\color{lightblue}GET}$$
+```
+/dashboard/reservacionesByMes
+```
+```
+/dashboard/reservacionesBySalaByMes
+```
+```
+/dashboard/salasDisponibles
+```
+```
+/dashboard/usoMaterialByMes
+```
+```
+/dashboard/penalizacionesByMes
+```
+
+<!-------------------------------------- ESTATUS -------------------------------------->
+## Estatus
+$${\color{lightblue}GET}$$
+```
+/estatus
+```
+
+<!-------------------------------------- RESERVACIONES -------------------------------------->
+## Reservaciones
+$${\color{lightblue}GET}$$
+```
+/reservaciones
+```
+```
+/reservaciones/usuario/{id}
+```
+```
+/reservaciones/{id}
+```
 $${\color{lightgreen}POST}$$
 ```
-/chatbot
+/reservaciones
+```
+$${\color{orange}PUT}$$
+```
+/reservaciones/{id}
+```
+$${\color{red}DELETE}$$
+```
+/reservaciones/{id}
 ```
 
 <!-------------------------------------- EXPERIENCIAS -------------------------------------->
@@ -70,31 +121,6 @@ $${\color{lightblue}GET}$$
 $${\color{lightgreen}POST}$$
 ```
 /perfil/logros/{idUsuario}
-```
-
-<!-------------------------------------- RESERVACIONES -------------------------------------->
-## Reservaciones
-$${\color{lightblue}GET}$$
-```
-/reservaciones
-```
-```
-/reservaciones/usuario/{id}
-```
-```
-/reservaciones/{id}
-```
-$${\color{lightgreen}POST}$$
-```
-/reservaciones
-```
-$${\color{orange}PUT}$$
-```
-/reservaciones/{id}
-```
-$${\color{red}DELETE}$$
-```
-/reservaciones/{id}
 ```
 
 <!-------------------------------------- SALAS -------------------------------------->
