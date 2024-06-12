@@ -98,7 +98,7 @@ Detallar el diseño de la estructura de datos, incluyendo modelos de datos, diag
 
 #### 3.4.2 Modelo Lógico de Datos - Base de Datos no Relacional
 
-![Modelo Lógico de Datoa - Base de Datos no Relacional](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/BD_Reto-Modelo%20L%C3%B3gico%20de%20Datos%20No%20Relacional.drawio.png)
+![Modelo Lógico de Datoa - Base de Datos no Relacional](https://github.com/CodeCraft-Solutions-DREAM-Lab/Wiki/blob/main/assets/ModeloLogicoDatosNoRelacional.png)
 
 ## 4. Detalles del Diseño
 
