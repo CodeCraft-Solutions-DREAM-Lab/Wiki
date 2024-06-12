@@ -43,36 +43,14 @@ $${\color{lightblue}GET}$$
 /estatus
 ```
 
-<!-------------------------------------- RESERVACIONES -------------------------------------->
-## Reservaciones
-$${\color{lightblue}GET}$$
-```
-/reservaciones
-```
-```
-/reservaciones/usuario/{id}
-```
-```
-/reservaciones/{id}
-```
-$${\color{lightgreen}POST}$$
-```
-/reservaciones
-```
-$${\color{orange}PUT}$$
-```
-/reservaciones/{id}
-```
-$${\color{red}DELETE}$$
-```
-/reservaciones/{id}
-```
-
 <!-------------------------------------- EXPERIENCIAS -------------------------------------->
 ## Experiencias
 $${\color{lightblue}GET}$$
 ```
-/experiencias
+/experiencias/
+```
+```
+/experiencias/expertienciasActivas
 ```
 ```
 /experiencias/autodirigidas
@@ -84,9 +62,16 @@ $${\color{lightgreen}POST}$$
 ```
 /experiencias/UFs
 ```
+```
+/experiencias/crear
+```
 
 <!-------------------------------------- LOGROS -------------------------------------->
 ## Logros
+$${\color{lightgreen}POST}$$
+```
+/logros/progresoLogro/{idUsuario}/{idLogro}
+```
 $${\color{orange}PUT}$$
 ```
 /logros/{idUsuario}/{idLogro}
@@ -96,7 +81,13 @@ $${\color{orange}PUT}$$
 ## Materiales
 $${\color{lightblue}GET}$$
 ```
-/materiales-disponibles
+/materiales
+```
+```
+/materiales/recomendados
+```
+```
+/materiales/bySala
 ```
 
 <!-------------------------------------- MESAS -------------------------------------->
@@ -121,6 +112,46 @@ $${\color{lightblue}GET}$$
 $${\color{lightgreen}POST}$$
 ```
 /perfil/logros/{idUsuario}
+```
+
+<!-------------------------------------- RESERVACIONES -------------------------------------->
+## Reservaciones
+$${\color{lightblue}GET}$$
+```
+/reservaciones
+```
+```
+/reservaciones/cronograma
+```
+```
+/reservaciones/cronogramaSingle/{idReservacion}
+```
+```
+/reservaciones/cronograma/{id}
+```
+```
+/reservaciones/usuario/{id}
+```
+```
+/reservaciones/{id}
+```
+$${\color{lightgreen}POST}$$
+```
+/reservaciones
+```
+```
+/reservaciones/cancelar
+```
+```
+/reservaciones/ultimas
+```
+$${\color{orange}PUT}$$
+```
+/reservaciones/{id}
+```
+$${\color{red}DELETE}$$
+```
+/reservaciones/{id}
 ```
 
 <!-------------------------------------- SALAS -------------------------------------->
